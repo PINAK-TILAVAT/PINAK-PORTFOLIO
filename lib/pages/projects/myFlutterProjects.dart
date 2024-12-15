@@ -15,6 +15,12 @@ class Flutter extends StatelessWidget {
         return ListView(
           
           children: [
+             ProjectTile(
+              projecticon: Icons.star,
+              projectName: "PORTFOLIO",
+              projetcBio: "Personal portfolio webApp + firebse hosting",
+              projectUrl: "https://github.com/PINAK-TILAVAT/PINAK-PORTFOLIO",
+            ),
             ProjectTile(
               projecticon: Icons.star,
               projectName: "R8 IT",
