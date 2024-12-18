@@ -12,6 +12,9 @@ class Certification extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 20.0),
         child: ListView(
           children: [
+            CertificateTile(certificateName:"MY RESUME", certificateUrl: "https://drive.google.com/file/d/1P_Z809wtJEzHo5SGFHRqNodO-5OeOFqd/view?usp=sharing"),
+            SizedBox(height: 10,),
+            Divider(),
             CertificateTile(
               certificateName:
                   "Programming for Everybody University of Michigan",
